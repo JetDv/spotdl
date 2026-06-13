@@ -1,0 +1,15 @@
+[MASTER]
+# Allow slightly longer lines for readability
+max-line-length=160
+
+[MESSAGES CONTROL]
+# Temporarily disable docstring requirements and protected member access
+disable=
+    C0115,  # missing-class-docstring
+    C0116,  # missing-function-docstring
+    W0212,  # protected-access
+    W0718,  # broad-exception-caught
+    R0912,  # too-many-branches
+    R0911,  # too-many-return-statements
+    R1702,  # too-many-nested-blocks
+    W0707,  # raise-missing-from
